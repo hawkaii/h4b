@@ -1,7 +1,9 @@
 import logo from "../assets/logo1.svg";
+import "./waves.css";
 
 const Footer =() => {
-   return ( <footer className=" bg-gray-900 ">
+   return ( <footer className="specialBack">
+        <div className="spacer layer1"></div>
         <div className="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
           <div className="md:flex md:justify-between">
             <div className="mb-6 md:mb-0">
