@@ -163,18 +163,18 @@ const Navbar = () => {
             </span>
           </a>
           <div className="flex items-center lg:order-2">
-            <a
-              href="#"
-              className="text-white focus:ring-gray-300 font-medium rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 mr-2 hover:bg-gray-700 focus:outline-none focus:ring-gray-800"
+            
+            <Link
+              to="/log-in"
+              className={`block py-2 pr-4 pl-3 lg:p-0 text-gray-400 ${
+                location.pathname === "/log-in"
+                  ? "text-white hover:bg-gray-700"
+                  : "lg:hover:text-white hover:bg-gray-700 hover:text-white"
+              } lg:hover:bg-transparent border-gray-700`}
             >
-              Log in
-            </a>
-            <a
-              href="#"
-              className="text-white focus:ring-primary-300 font-medium rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 mr-2 bg-primary-600 hover:bg-primary-700 focus:outline-none focus:ring-primary-800"
-            >
-              Get started
-            </a>
+              Log-in
+            </Link>
+
             <button
               data-collapse-toggle="mobile-menu-2"
               type="button"
@@ -221,7 +221,9 @@ const Navbar = () => {
                 <Link
                   to="/"
                   className={`block py-2 pr-4 pl-3 lg:p-0 text-gray-400 ${
-                    location.pathname === "/" ? "text-white hover:bg-gray-700" : "lg:hover:text-white hover:bg-gray-700 hover:text-white"
+                    location.pathname === "/"
+                      ? "text-white hover:bg-gray-700"
+                      : "lg:hover:text-white hover:bg-gray-700 hover:text-white"
                   } lg:hover:bg-transparent border-gray-700`}
                   aria-current="page"
                 >
@@ -256,7 +258,9 @@ const Navbar = () => {
                 <Link
                   to="/blogs"
                   className={`block py-2 pr-4 pl-3 lg:p-0 text-gray-400 ${
-                    location.pathname === "/blogs" ? "text-white hover:bg-gray-700" : "lg:hover:text-white hover:bg-gray-700 hover:text-white"
+                    location.pathname === "/blogs"
+                      ? "text-white hover:bg-gray-700"
+                      : "lg:hover:text-white hover:bg-gray-700 hover:text-white"
                   } lg:hover:bg-transparent border-gray-700`}
                 >
                   Blogs
@@ -266,7 +270,9 @@ const Navbar = () => {
                 <Link
                   to="/contact"
                   className={`block py-2 pr-4 pl-3 lg:p-0 text-gray-400 ${
-                    location.pathname === "/contact" ? "text-white hover:bg-gray-700" : "lg:hover:text-white hover:bg-gray-700 hover:text-white"
+                    location.pathname === "/contact"
+                      ? "text-white hover:bg-gray-700"
+                      : "lg:hover:text-white hover:bg-gray-700 hover:text-white"
                   } lg:hover:bg-transparent border-gray-700`}
                 >
                   Contact
@@ -281,4 +287,3 @@ const Navbar = () => {
 };
 
 export default Navbar;
-

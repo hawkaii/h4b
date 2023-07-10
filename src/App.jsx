@@ -7,6 +7,7 @@ import Blogs from "./components/Blogs"
 import Contacts from "./components/Contacts"
 import RootLayout from "./pages/Root"
 import Dashboard from "./components/Dashboard"
+import LogPage from "./components/LogPage"
 
 const router = createBrowserRouter(
   [
@@ -19,6 +20,7 @@ const router = createBrowserRouter(
         { path: 'blogs', element: <Blogs /> },
         { path: 'trade', element: <Dashboard /> },
         { path: 'contact', element: <Contacts /> },
+        { path: 'log-in' , element: <LogPage/>}
       ]
     }
   ]
