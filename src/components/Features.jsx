@@ -4,10 +4,10 @@ const Features = () => {
       <div className="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
         <div className="max-w-screen-md mb-8 lg:mb-16">
           <h2 className="mb-4 text-4xl tracking-tight font-bold  text-white">
-            Designed for business teams like yours
+            WHO ARE WE?
           </h2>
           <p className="text-gray-500 sm:text-xl ">
-          We are a group of engieering students, who when entered college as freshers faced the problem of arranging study resources, tools (like engineering drawing kit and etc) at low cost, and keep a track of community events taking place in india. Thus, Kredi aims in providing a one-stop solution for the students to find the aforementioned resources, tools at affordable prices, and community events conveniently.
+          We are a group of engineering students, who when entered college as freshers faced the problem of arranging study resources, tools (like engineering drawing kit and etc) at low cost, and keep a track of community events taking place in india. Thus, Kredi aims in providing a one-stop solution for the students to find the aforementioned resources, tools at affordable prices, and community events conveniently.
           </p>
         </div>
         <div className="space-y-8 md:grid md:grid-cols-1 lg:grid-cols-3 md:gap-12 md:space-y-0">
@@ -27,12 +27,10 @@ const Features = () => {
               </svg>
             </div>
             <h3 className="mb-2 text-xl font-bold text-white">
-              Marketing
+              Helping Student Trades
             </h3>
             <p className="text-gray-500 ">
-              Plan it, create it, launch it. Collaborate seamlessly with all the
-              organization and hit your marketing goals every month with our
-              marketing plan.
+            Unlocking Knowledge, Empowering Students: Your Trusted Source for Comprehensive Learning Materials
             </p>
           </div>
 
@@ -52,10 +50,9 @@ const Features = () => {
                 />
               </svg>
             </div>
-            <h3 className="mb-2 text-xl font-bold text-white">Finance</h3>
+            <h3 className="mb-2 text-xl font-bold text-white">Online Resources</h3>
             <p className="text-gray-500 ">
-              Audit-proof software built for critical financial operations like
-              month-end close and quarterly budgeting.
+            Expand Your Horizons with a World of Online Resources at Your Fingertips
             </p>
           </div>
 
@@ -75,11 +72,10 @@ const Features = () => {
               </svg>
             </div>
             <h3 className="mb-2 text-xl font-bold text-white">
-              Operations
+              World of Knowledge
             </h3>
             <p className="text-gray-500 ">
-              Keep your company’s lights on with customizable, iterative, and
-              structured workflows built for all efficient teams and individual.
+            Unlock the doors to a vast World of Knowledge and embark on a journey of endless learning and discovery.
             </p>
           </div>
         </div>
